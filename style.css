@@ -47,6 +47,7 @@ nav .nav__linkss{
 
 nav .nav__linkss ul{
     display: flex;
+    align-items: center;
     list-style: none; 
 }
 nav .nav__linkss h2{
@@ -65,7 +66,7 @@ nav .nav__linkss ul li a{
     border-bottom:  1px solid whitesmoke;  
 }
 
-nav .nav__linkss button {
+.nav__linkss ul button {
     border: none;
     text-decoration: none;
     background-color: rgb(#e1e1e1);
@@ -75,7 +76,7 @@ nav .nav__linkss button {
     cursor: pointer;
 }
 
-nav  .nav__linkss button:hover{
+.nav__linkss button:hover{
     background-color: #e1e1e1;
     color: black;
     transform: scale(1.1);
@@ -113,14 +114,14 @@ nav  .nav__linkss button:hover{
     text-align: center;
 }
 .row .row-2 h2{
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     color: #e1e1e1;
 
 }
 .row .row-2  p{
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: #e1e1e1;
 }
 .row .row-2 button{
@@ -319,12 +320,13 @@ footer .cntainer{
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    margin: auto;
+    padding: 5rem 0;
     }
 
     nav h2{
         font-size: 1rem;
     }
+
 
     .hamburger {
         display: block;
@@ -362,10 +364,6 @@ footer .cntainer{
         align-items: center;
     }
 
-    nav .nav__linkss button {
-        padding: 5px;
-        
-    }
 
     /* row */
     .row{
@@ -376,10 +374,11 @@ footer .cntainer{
         width: 100%;
     }
     .row .row-2 h2{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .row .row-2 p{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
    
     /* About */
